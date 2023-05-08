@@ -1,8 +1,9 @@
 namespace Pokedex.Models;
+
     public class Pokemon
     {
         // Atributos
-        public int Numero { get; set; }   
+        public int Numero { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
         public string Especie { get; set; }
@@ -11,9 +12,10 @@ namespace Pokedex.Models;
         public double Peso { get; set; }
         public string Imagem { get; set; }
 
-        // Método Construtor 
+        // Método Construtor
         public Pokemon()
         {
             Tipo = new List<string>();
         }
     }
+
